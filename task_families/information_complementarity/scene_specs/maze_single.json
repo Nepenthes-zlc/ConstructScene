@@ -1,0 +1,27 @@
+[
+  {
+    "id": "information_maze_command_01",
+    "task_template": "maze_command_guidance",
+    "notes": "Agent A navigates inside a three-block-high maze while Agent B observes from above and communicates the route.",
+    "origin": [630, -58, 0],
+    "room_size": [23, 20, 23],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:light_gray_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_light_size": [5, 5],
+    "wall_light_block": "minecraft:glowstone",
+    "wall_light_height": 7,
+    "maze_size": 15,
+    "maze_wall_height": 3,
+    "maze_path_width": 2,
+    "maze_wall_block": "minecraft:gray_concrete",
+    "maze_middle_layer_block": "minecraft:glowstone",
+    "maze_seed": 3107,
+    "goal_block": "minecraft:emerald_block"
+  }
+]

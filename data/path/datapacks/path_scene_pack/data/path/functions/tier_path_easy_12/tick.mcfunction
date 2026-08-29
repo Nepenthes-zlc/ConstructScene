@@ -1,0 +1,18 @@
+# Tick logic for scene: tier_path_easy_12
+execute if block 1240 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1240 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1240 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1240 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1241 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1241 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1241 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1241 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1242 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1242 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1242 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1242 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1243 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1243 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1243 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute if block 1243 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:cyan_concrete
+execute unless block 1240 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1240 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1240 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1240 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1241 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1241 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1241 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1241 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1242 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1242 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1242 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1242 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1243 -57 8 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1243 -57 9 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1243 -57 10 minecraft:polished_blackstone_pressure_plate[powered=true] unless block 1243 -57 11 minecraft:polished_blackstone_pressure_plate[powered=true] run fill 1239 -58 13 1242 -58 16 minecraft:air

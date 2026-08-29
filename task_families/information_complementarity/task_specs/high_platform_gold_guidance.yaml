@@ -1,0 +1,214 @@
+schema_version: 1
+task_template: high_platform_gold_guidance
+category: information_complementarity
+name: guided_position_above_hidden_gold
+description: Agent B observes a 2x2 gold region randomly placed below a high platform and guides Agent A until Agent A stands directly above that region.
+
+common_room:
+  shape: rectangular_prism
+  construction_rule: same_two_layer_house_structure_as_other_tasks
+  origin: [0, -59, 0]
+  interior_height: 9
+  room_size: [17, 11, 19]
+  height_definition: room_size_y_includes_floor_and_ceiling_while_interior_height_counts_walkable_air
+  shell_thickness: 2
+  floor_block: minecraft:light_gray_concrete
+  wall_block: minecraft:white_concrete
+  ceiling_block: minecraft:white_concrete
+  ceiling_light:
+    mode: rectangular_frame_and_center_panel
+    block: minecraft:glowstone
+
+scene_layout:
+  high_platform:
+    position: directly_touching_one_interior_wall
+    wall_gap: 0
+    floor_relative_y: 6
+    width_from_wall: 3
+    length_along_wall: full_interior_wall_length
+    thickness: 1
+    block: minecraft:smooth_stone
+    underlight_layer:
+      relative_y: 5
+      block: minecraft:glowstone
+      coverage: full_platform_footprint
+    purpose: elevated_target_area
+  elevated_path:
+    orientation: perpendicular_to_platform
+    attachment_side: left_or_right_platform_edge
+    selected_side: left
+    length: 5
+    width: 2
+    floor_relative_y: 6
+    width: 2
+    block: minecraft:smooth_stone
+    height_rule: path_surface_must_equal_platform_surface
+    connection_rule: continuous_walkable_connection_from_platform_edge
+  safety_barrier:
+    block: minecraft:oak_fence
+    height: 1
+    coverage:
+      - every_exposed_high_platform_edge
+      - both_exposed_sides_of_elevated_path
+    continuity: no_unprotected_drop_edge
+    corner_rule: every_side_and_end_fence_intersection_includes_the_outer_corner_block
+    entrance_rule: path_to_platform_connection_remains_walkable
+  hidden_gold_marker:
+    block: minecraft:gold_block
+    region_size: [2, 1, 2]
+    position: directly_below_high_platform_near_wall
+    floor_relative_y: 1
+    support: main_floor
+    count: 4
+    randomization_axis: along_platform_length
+    candidate_regions: three_overlapping_2x2_regions_below_platform
+    visible_to: agent_b
+    hidden_from: agent_a
+    distance_rule: place_on_the_platform_side_farthest_from_the_elevated_side_path
+    minimum_horizontal_distance_from_side_path: 8
+  target_column:
+    source: hidden_gold_marker
+    horizontal_alignment: same_x_and_z
+    target_y_relative_to_floor: 7
+    description: The walkable block directly above the hidden gold marker on the platform.
+
+spatial_requirements:
+  - The house uses the same complete two-layer wall structure as the existing tasks.
+  - The room has exactly nine blocks of unobstructed interior height between its floor and ceiling.
+  - The high platform walking surface is exactly six blocks above the main floor.
+  - The wall-facing platform edge directly touches the interior wall with zero blocks of horizontal gap.
+  - The wall-side high platform extends exactly three blocks from the wall into the room.
+  - The high platform spans from the left interior wall to the right interior wall.
+  - A two-block-wide elevated path extends exactly five blocks into the room from either the far-left or far-right platform edge.
+  - A full glowstone layer is installed one block below the wall-side high platform.
+  - The elevated path and high platform have exactly the same walking height.
+  - Every exposed platform edge and both exposed path sides have continuous fences.
+  - The fence layout leaves no unprotected edge from which Agent A can walk off.
+  - Exactly one 2x2 gold region is randomly selected from three candidate regions below the platform near the wall.
+  - All four gold blocks are placed on top of the main floor, not embedded in or replacing the floor.
+  - Every candidate gold region has a matching 2x2 walkable platform region directly above it.
+  - Every fence corner is explicitly filled so Agent A cannot fall diagonally through a missing outer corner.
+  - Agent A starts on the elevated platform or path and cannot see the gold block through the platform floor.
+  - Agent A starts at the far end of the two-block-wide elevated side path.
+  - Agent B starts safely on the main floor directly beside the south wall, far from the north-wall platform.
+  - The gold region remains below the main platform but is placed on the side farthest from the elevated side path.
+
+information_distribution:
+  agent_a_private_information:
+    - Agent A starts on the elevated structure and is the only agent whose final position is evaluated.
+    - Agent A knows it must stand directly above the 2x2 gold region.
+    - Agent A cannot see the gold region below the opaque platform.
+  agent_b_private_information:
+    - Agent B can see which of the three candidate positions contains the 2x2 gold region.
+    - Agent B can observe Agent A's movement from below.
+    - Agent B must communicate directional corrections to Agent A.
+  shared_information:
+    - Both agents know the platform contains three possible target columns along the wall.
+    - Both agents may communicate throughout the task.
+  complementarity_rule: Agent A can occupy the target but cannot observe it, while Agent B can observe the target but cannot satisfy the target position.
+
+players:
+  agent_a:
+    role: elevated_navigator
+    spawn_rule:
+      location: far_end_of_elevated_side_path
+      exact_rule: center_on_a_walkable_path_cell_next_to_the_end_fence
+      excluded_columns:
+        - target_column
+      minimum_horizontal_distance_from_target: 1
+      protected_by: safety_barrier
+    goal:
+      type: stand_above_block
+      target: hidden_gold_marker
+      alignment_axes: [x, z]
+      description: Follow Agent B's directions and stand on any platform block directly above the hidden 2x2 gold region.
+  agent_b:
+    role: ground_spotter
+    spawn_rule:
+      location: south_wall_ground
+      wall_gap: 0
+      distance_rule: maximize_distance_from_north_wall_high_platform
+      visibility_required:
+        - hidden_gold_marker
+        - agent_a
+      excluded_regions:
+        - area_directly_below_elevated_path
+    goal:
+      type: guide_player_to_column
+      player: agent_a
+      target: hidden_gold_marker
+      description: Observe the gold block and guide Agent A left or right until Agent A is directly above it.
+
+communication:
+  enabled: true
+  required: true
+  channel: agent_a_agent_b
+  expected_messages:
+    - target_side
+    - move_left_or_right
+    - continue_or_stop
+    - alignment_confirmation
+
+randomization:
+  hidden_gold_marker:
+    method: choose_one_uniformly
+    candidates: high_platform.wall_side_cells
+    candidate_count: 3
+    region_size: [2, 1, 2]
+    per_task: true
+
+initial_state_checks:
+  - type: player_on_safe_surface
+    player: agent_a
+    target: elevated_path_or_high_platform
+  - type: player_not_aligned_with_target
+    player: agent_a
+    target: hidden_gold_marker
+    alignment_axes: [x, z]
+  - type: player_on_safe_surface
+    player: agent_b
+    target: main_floor
+  - type: elevated_edges_protected
+    targets:
+      - high_platform
+      - elevated_path
+    protection: safety_barrier
+
+success_conditions:
+  - type: player_horizontally_aligned_above_region
+    player: agent_a
+    target_region: hidden_gold_marker
+    same_coordinates: [x, z]
+    player_y_relative_to_floor: 7
+    target_y_relative_to_floor: 1
+
+failure_conditions:
+  - type: player_below_y
+    player: agent_a
+    y_below_relative_to_floor: 7
+    description: Agent A has fallen below the elevated walking level.
+
+generation_notes:
+  implemented_by_existing_generator: false
+  required_scene_builder: build_high_platform_gold_guidance_scene
+  required_task_builder: build_high_platform_gold_guidance_task
+  acceptance_checks:
+    - common_room.interior_height == 9
+    - common_room.shell_thickness == 2
+    - high_platform.floor_relative_y == 6
+    - high_platform.wall_gap == 0
+    - high_platform.width_from_wall == 3
+    - elevated_path.floor_relative_y == high_platform.floor_relative_y
+    - elevated_path.length == 5
+    - elevated_path.width == 2
+    - elevated_path.attachment_side == left_or_right_platform_edge
+    - hidden_gold_marker.candidate_count == 3
+    - hidden_gold_marker.region_size == [2, 1, 2]
+    - hidden_gold_marker.position == directly_below_high_platform_near_wall
+    - hidden_gold_marker.floor_relative_y == 1
+    - hidden_gold_marker.minimum_horizontal_distance_from_side_path == 8
+    - agent_a.spawn_rule.location == far_end_of_elevated_side_path
+    - agent_b.spawn_rule.wall_gap == 0
+    - safety_barrier.continuity == no_unprotected_drop_edge
+    - safety_barrier.corner_rule == every_side_and_end_fence_intersection_includes_the_outer_corner_block
+    - communication.required == true

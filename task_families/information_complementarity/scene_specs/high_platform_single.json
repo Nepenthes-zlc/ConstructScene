@@ -1,0 +1,30 @@
+[
+  {
+    "id": "information_high_platform_01",
+    "task_template": "high_platform_gold_guidance",
+    "notes": "Agent B sees a gold marker below the opaque high platform and guides Agent A to the matching position above it.",
+    "origin": [590, -58, 0],
+    "room_size": [17, 11, 19],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:light_gray_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_light_size": [5, 5],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:gold_block",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "observer_relative_pos": [8.212, 8.0, 12.265],
+    "observer_rotation": [179.0, 26.0],
+    "observer_support_block": "minecraft:barrier",
+    "gold_candidate_index": 2
+  }
+]

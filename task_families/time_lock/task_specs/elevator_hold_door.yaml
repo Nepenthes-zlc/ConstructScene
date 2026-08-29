@@ -1,0 +1,97 @@
+schema_version: 1
+task_template: elevator_hold_door
+category: time_lock
+name: pressure_plate_opens_elevator_door
+description: Player A steps on a pressure plate on one side of the house, opening a visually distinct elevator door in the center divider so Player B can pass through.
+
+common_room:
+  shape: rectangular_prism
+  construction_rule: same_house_structure_as_other_tasks
+  shell_thickness: 2
+  origin: [0, -59, 0]
+  room_size: [13, 6, 15]
+  floor_block: minecraft:white_concrete
+  wall_block: minecraft:white_concrete
+  ceiling_block: minecraft:white_concrete
+  ceiling_light:
+    mode: rectangular_frame
+    block: minecraft:glowstone
+    inset: 1
+
+scene_layout:
+  divider_wall:
+    position: room_center
+    axis: z
+    thickness: 1
+    block: minecraft:white_concrete
+    purpose: split_house_into_two_sides
+  elevator_door:
+    position: divider_wall_center
+    width: 3
+    height: 3
+    closed_block: minecraft:black_concrete
+    requirement: door_block_must_contrast_with_wall
+    visual_rule: door_material_must_not_match_wall_or_divider_block
+    closed_state: filled_solid
+    open_state: filled_air
+  pressure_plate:
+    side: one_side_of_divider_wall
+    offset_from_door: 3
+    region_size: [3, 1, 3]
+    block: minecraft:stone_pressure_plate
+    active_state: powered=true
+    pad_block: minecraft:white_concrete
+    placement_rule: plate_region_must_be_on_only_one_side_of_the_door
+
+spatial_requirements:
+  - The house uses the shared rectangular room construction.
+  - A divider wall is placed in the middle of the house.
+  - The elevator door is centered in the divider wall.
+  - The closed elevator door uses blocks that are different from the wall blocks.
+  - The pressure plate is placed on one side of the divider wall, not on both sides.
+  - Player B must need the opened doorway to cross from the pressure-plate side to the other side.
+
+players:
+  player_a:
+    role: door_holder
+    spawn_side: pressure_plate_side
+    goal:
+      type: hold_region
+      target: pressure_plate.region
+      description: Stand on any pressure plate cell and keep the elevator door open.
+  player_b:
+    role: door_runner
+    spawn_side: pressure_plate_side
+    goal:
+      type: reach_region
+      target: elevator_door.region
+      description: Enter the elevator doorway while Player A is still holding the pressure plate.
+
+mechanics:
+  tick_logic:
+    when: any_pressure_plate_powered
+    do: fill elevator_door.region minecraft:air
+    otherwise: fill elevator_door.region elevator_door.closed_block
+  command_blocks: required
+  temporal_lock: door_only_stays_open_while_plate_is_pressed
+
+success_conditions:
+  - type: block_state_any
+    target: pressure_plate.region
+    expected_block_state: pressure_plate_powered
+    actor: player_a
+  - type: player_in_region
+    player: player_b
+    target: elevator_door.region
+
+generation_notes:
+  implemented_by_existing_generator: true
+  existing_template: elevator_hold_door
+  acceptance_checks:
+    - divider_wall.position == room_center
+    - elevator_door.position == divider_wall_center
+    - elevator_door.closed_block != common_room.wall_block
+    - pressure_plate.side == one_side_of_divider_wall
+  required_generator_changes:
+    - Make common room shell thickness and rectangular-frame ceiling light shared by all task templates.
+    - Preserve elevator door block contrast against the wall block.

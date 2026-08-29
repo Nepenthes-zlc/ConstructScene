@@ -1,0 +1,9044 @@
+{
+  "namespace": "truck",
+  "datapack_name": "truck_scene_pack",
+  "datapack_root": "data\\truck\\datapacks\\truck_scene_pack",
+  "source_spec": "task_families\\information_complementarity\\scene_specs\\truck_decorated_45_scenes.json",
+  "scene_count": 45,
+  "scenes": [
+    {
+      "scene_id": "truck_easy_01",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1800,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1801,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1809,
+        -51,
+        9,
+        1813,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1809,
+        -51,
+        9,
+        1813,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1801,
+        -51,
+        1,
+        1822,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_01/setup",
+      "place_command_blocks_function": "truck:truck_easy_01/place_command_blocks",
+      "tick_function": "truck:truck_easy_01/tick",
+      "clear_function": "truck:truck_easy_01/clear",
+      "parking_region": [
+        1811,
+        -58,
+        10,
+        1814,
+        -58,
+        13
+      ],
+      "target_region": [
+        1811,
+        -57,
+        10,
+        1814,
+        -57,
+        13
+      ],
+      "target_center": [
+        1812.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:red_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1821,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1802,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1821,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1821,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1802,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1821,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1821,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1802,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1802,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1802,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1821,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1821,
+            -57,
+            6
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 0.0
+    },
+    {
+      "scene_id": "truck_easy_02",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1832,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1833,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1841,
+        -51,
+        9,
+        1845,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1841,
+        -51,
+        9,
+        1845,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1833,
+        -51,
+        1,
+        1853,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_02/setup",
+      "place_command_blocks_function": "truck:truck_easy_02/place_command_blocks",
+      "tick_function": "truck:truck_easy_02/tick",
+      "clear_function": "truck:truck_easy_02/clear",
+      "parking_region": [
+        1842,
+        -58,
+        11,
+        1845,
+        -58,
+        14
+      ],
+      "target_region": [
+        1842,
+        -57,
+        11,
+        1845,
+        -57,
+        14
+      ],
+      "target_center": [
+        1843.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:orange_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1852,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1852,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1834,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1834,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1852,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1834,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1834,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1834,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1834,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1852,
+            -57,
+            7
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 24.0
+    },
+    {
+      "scene_id": "truck_easy_03",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1863,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1864,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1872,
+        -51,
+        9,
+        1876,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1872,
+        -51,
+        9,
+        1876,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1864,
+        -51,
+        1,
+        1885,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_03/setup",
+      "place_command_blocks_function": "truck:truck_easy_03/place_command_blocks",
+      "tick_function": "truck:truck_easy_03/tick",
+      "clear_function": "truck:truck_easy_03/clear",
+      "parking_region": [
+        1874,
+        -58,
+        10,
+        1877,
+        -58,
+        13
+      ],
+      "target_region": [
+        1874,
+        -57,
+        10,
+        1877,
+        -57,
+        13
+      ],
+      "target_center": [
+        1875.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:yellow_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1865,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1865,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1884,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1884,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1865,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1884,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1884,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1865,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1865,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1865,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1884,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1884,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1865,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1865,
+            -57,
+            8
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 48.0
+    },
+    {
+      "scene_id": "truck_easy_04",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1895,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1896,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1904,
+        -51,
+        9,
+        1908,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1904,
+        -51,
+        9,
+        1908,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1896,
+        -51,
+        1,
+        1916,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_04/setup",
+      "place_command_blocks_function": "truck:truck_easy_04/place_command_blocks",
+      "tick_function": "truck:truck_easy_04/tick",
+      "clear_function": "truck:truck_easy_04/clear",
+      "parking_region": [
+        1905,
+        -58,
+        11,
+        1908,
+        -58,
+        14
+      ],
+      "target_region": [
+        1905,
+        -57,
+        11,
+        1908,
+        -57,
+        14
+      ],
+      "target_center": [
+        1906.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:lime_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1915,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1915,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1897,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1897,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1897,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1897,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1897,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1897,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1897,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1915,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1897,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1915,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1897,
+            -57,
+            11
+          ]
+        }
+      ],
+      "decoration_count": 13,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 72.0
+    },
+    {
+      "scene_id": "truck_easy_05",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1926,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1927,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1935,
+        -51,
+        9,
+        1939,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1935,
+        -51,
+        9,
+        1939,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1927,
+        -51,
+        1,
+        1948,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_05/setup",
+      "place_command_blocks_function": "truck:truck_easy_05/place_command_blocks",
+      "tick_function": "truck:truck_easy_05/tick",
+      "clear_function": "truck:truck_easy_05/clear",
+      "parking_region": [
+        1937,
+        -58,
+        10,
+        1940,
+        -58,
+        13
+      ],
+      "target_region": [
+        1937,
+        -57,
+        10,
+        1940,
+        -57,
+        13
+      ],
+      "target_center": [
+        1938.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:green_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1947,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1947,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1928,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1928,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1947,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1928,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1928,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1947,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1928,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1947,
+            -57,
+            3
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 96.0
+    },
+    {
+      "scene_id": "truck_easy_06",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1958,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1959,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1967,
+        -51,
+        9,
+        1971,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1967,
+        -51,
+        9,
+        1971,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1959,
+        -51,
+        1,
+        1979,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_06/setup",
+      "place_command_blocks_function": "truck:truck_easy_06/place_command_blocks",
+      "tick_function": "truck:truck_easy_06/tick",
+      "clear_function": "truck:truck_easy_06/clear",
+      "parking_region": [
+        1968,
+        -58,
+        11,
+        1971,
+        -58,
+        14
+      ],
+      "target_region": [
+        1968,
+        -57,
+        11,
+        1971,
+        -57,
+        14
+      ],
+      "target_center": [
+        1969.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:cyan_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1978,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1978,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1978,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1978,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1960,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1960,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1978,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1960,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1978,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1978,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            1960,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1978,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1978,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1960,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1978,
+            -57,
+            15
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 120.0
+    },
+    {
+      "scene_id": "truck_easy_07",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        1989,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        1990,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        1998,
+        -51,
+        9,
+        2002,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        1998,
+        -51,
+        9,
+        2002,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        1990,
+        -51,
+        1,
+        2011,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_07/setup",
+      "place_command_blocks_function": "truck:truck_easy_07/place_command_blocks",
+      "tick_function": "truck:truck_easy_07/tick",
+      "clear_function": "truck:truck_easy_07/clear",
+      "parking_region": [
+        2000,
+        -58,
+        10,
+        2003,
+        -58,
+        13
+      ],
+      "target_region": [
+        2000,
+        -57,
+        10,
+        2003,
+        -57,
+        13
+      ],
+      "target_center": [
+        2001.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:light_blue_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2010,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            1991,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1991,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            1991,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2010,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            1991,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2010,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            1991,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            1991,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2010,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2010,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2010,
+            -57,
+            10
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 144.0
+    },
+    {
+      "scene_id": "truck_easy_08",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2021,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2022,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2030,
+        -51,
+        9,
+        2034,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2030,
+        -51,
+        9,
+        2034,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2022,
+        -51,
+        1,
+        2042,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_08/setup",
+      "place_command_blocks_function": "truck:truck_easy_08/place_command_blocks",
+      "tick_function": "truck:truck_easy_08/tick",
+      "clear_function": "truck:truck_easy_08/clear",
+      "parking_region": [
+        2031,
+        -58,
+        11,
+        2034,
+        -58,
+        14
+      ],
+      "target_region": [
+        2031,
+        -57,
+        11,
+        2034,
+        -57,
+        14
+      ],
+      "target_center": [
+        2032.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:blue_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2041,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2023,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2041,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2041,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2023,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2041,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2041,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2023,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2023,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2041,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2023,
+            -57,
+            5
+          ]
+        }
+      ],
+      "decoration_count": 11,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 168.0
+    },
+    {
+      "scene_id": "truck_easy_09",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2052,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2053,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2061,
+        -51,
+        9,
+        2065,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2061,
+        -51,
+        9,
+        2065,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2053,
+        -51,
+        1,
+        2074,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_09/setup",
+      "place_command_blocks_function": "truck:truck_easy_09/place_command_blocks",
+      "tick_function": "truck:truck_easy_09/tick",
+      "clear_function": "truck:truck_easy_09/clear",
+      "parking_region": [
+        2063,
+        -58,
+        10,
+        2066,
+        -58,
+        13
+      ],
+      "target_region": [
+        2063,
+        -57,
+        10,
+        2066,
+        -57,
+        13
+      ],
+      "target_center": [
+        2064.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:purple_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2073,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2054,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2054,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2054,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2073,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2073,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2073,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2073,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2073,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2054,
+            -57,
+            13
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 192.0
+    },
+    {
+      "scene_id": "truck_easy_10",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2084,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2085,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2093,
+        -51,
+        9,
+        2097,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2093,
+        -51,
+        9,
+        2097,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2085,
+        -51,
+        1,
+        2105,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_10/setup",
+      "place_command_blocks_function": "truck:truck_easy_10/place_command_blocks",
+      "tick_function": "truck:truck_easy_10/tick",
+      "clear_function": "truck:truck_easy_10/clear",
+      "parking_region": [
+        2094,
+        -58,
+        11,
+        2097,
+        -58,
+        14
+      ],
+      "target_region": [
+        2094,
+        -57,
+        11,
+        2097,
+        -57,
+        14
+      ],
+      "target_center": [
+        2095.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:magenta_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2104,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2104,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2086,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2086,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2104,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2104,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2104,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2104,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2104,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2104,
+            -57,
+            7
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 216.0
+    },
+    {
+      "scene_id": "truck_easy_11",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2115,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2116,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2124,
+        -51,
+        9,
+        2128,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2124,
+        -51,
+        9,
+        2128,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2116,
+        -51,
+        1,
+        2137,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_11/setup",
+      "place_command_blocks_function": "truck:truck_easy_11/place_command_blocks",
+      "tick_function": "truck:truck_easy_11/tick",
+      "clear_function": "truck:truck_easy_11/clear",
+      "parking_region": [
+        2126,
+        -58,
+        10,
+        2129,
+        -58,
+        13
+      ],
+      "target_region": [
+        2126,
+        -57,
+        10,
+        2129,
+        -57,
+        13
+      ],
+      "target_center": [
+        2127.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:red_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2136,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2136,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2136,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2136,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2117,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2117,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2117,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2136,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2117,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2136,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2117,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2136,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2117,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2136,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2136,
+            -57,
+            6
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 240.0
+    },
+    {
+      "scene_id": "truck_easy_12",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2147,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2148,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2156,
+        -51,
+        9,
+        2160,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2156,
+        -51,
+        9,
+        2160,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2148,
+        -51,
+        1,
+        2168,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_12/setup",
+      "place_command_blocks_function": "truck:truck_easy_12/place_command_blocks",
+      "tick_function": "truck:truck_easy_12/tick",
+      "clear_function": "truck:truck_easy_12/clear",
+      "parking_region": [
+        2157,
+        -58,
+        11,
+        2160,
+        -58,
+        14
+      ],
+      "target_region": [
+        2157,
+        -57,
+        11,
+        2160,
+        -57,
+        14
+      ],
+      "target_center": [
+        2158.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:orange_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2167,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2149,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2167,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2167,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2167,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2149,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2149,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2167,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2167,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2167,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2149,
+            -57,
+            21
+          ]
+        }
+      ],
+      "decoration_count": 11,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 264.0
+    },
+    {
+      "scene_id": "truck_easy_13",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2178,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2179,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2187,
+        -51,
+        9,
+        2191,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2187,
+        -51,
+        9,
+        2191,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2179,
+        -51,
+        1,
+        2200,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_13/setup",
+      "place_command_blocks_function": "truck:truck_easy_13/place_command_blocks",
+      "tick_function": "truck:truck_easy_13/tick",
+      "clear_function": "truck:truck_easy_13/clear",
+      "parking_region": [
+        2189,
+        -58,
+        10,
+        2192,
+        -58,
+        13
+      ],
+      "target_region": [
+        2189,
+        -57,
+        10,
+        2192,
+        -57,
+        13
+      ],
+      "target_center": [
+        2190.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:yellow_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2199,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2180,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2199,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2199,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2199,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2199,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2199,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2180,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2199,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2180,
+            -57,
+            6
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 288.0
+    },
+    {
+      "scene_id": "truck_easy_14",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2210,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2211,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2219,
+        -51,
+        9,
+        2223,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2219,
+        -51,
+        9,
+        2223,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2211,
+        -51,
+        1,
+        2231,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_14/setup",
+      "place_command_blocks_function": "truck:truck_easy_14/place_command_blocks",
+      "tick_function": "truck:truck_easy_14/tick",
+      "clear_function": "truck:truck_easy_14/clear",
+      "parking_region": [
+        2220,
+        -58,
+        11,
+        2223,
+        -58,
+        14
+      ],
+      "target_region": [
+        2220,
+        -57,
+        11,
+        2223,
+        -57,
+        14
+      ],
+      "target_center": [
+        2221.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:lime_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2230,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2230,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2212,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2230,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2212,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2230,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2230,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2230,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2230,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2212,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2230,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2212,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2212,
+            -57,
+            20
+          ]
+        }
+      ],
+      "decoration_count": 13,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 312.0
+    },
+    {
+      "scene_id": "truck_easy_15",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2241,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2242,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2250,
+        -51,
+        9,
+        2254,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2250,
+        -51,
+        9,
+        2254,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2242,
+        -51,
+        1,
+        2263,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_easy_15/setup",
+      "place_command_blocks_function": "truck:truck_easy_15/place_command_blocks",
+      "tick_function": "truck:truck_easy_15/tick",
+      "clear_function": "truck:truck_easy_15/clear",
+      "parking_region": [
+        2252,
+        -58,
+        10,
+        2255,
+        -58,
+        13
+      ],
+      "target_region": [
+        2252,
+        -57,
+        10,
+        2255,
+        -57,
+        13
+      ],
+      "target_center": [
+        2253.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 4,
+      "parking_block": "minecraft:green_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2262,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2262,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2262,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2262,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2262,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2243,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2243,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2262,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2262,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2262,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2262,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2243,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2262,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2243,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2243,
+            -57,
+            4
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "easy",
+      "difficulty_zh": "简单",
+      "difficulty_constraints": {
+        "zh": "简单",
+        "count": 100,
+        "target_size": 4,
+        "a_distance": [
+          3.5,
+          4.5
+        ],
+        "spawn_distance": 4.0
+      },
+      "spawn_angle_degrees": 336.0
+    },
+    {
+      "scene_id": "truck_medium_01",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2273,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2274,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2282,
+        -51,
+        9,
+        2286,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2282,
+        -51,
+        9,
+        2286,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2274,
+        -51,
+        1,
+        2295,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_01/setup",
+      "place_command_blocks_function": "truck:truck_medium_01/place_command_blocks",
+      "tick_function": "truck:truck_medium_01/tick",
+      "clear_function": "truck:truck_medium_01/clear",
+      "parking_region": [
+        2284,
+        -58,
+        10,
+        2286,
+        -58,
+        12
+      ],
+      "target_region": [
+        2284,
+        -57,
+        10,
+        2286,
+        -57,
+        12
+      ],
+      "target_center": [
+        2285.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:red_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2294,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2294,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2275,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2294,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2294,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2294,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2294,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2294,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2275,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2294,
+            -57,
+            8
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 0.0
+    },
+    {
+      "scene_id": "truck_medium_02",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2305,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2306,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2314,
+        -51,
+        9,
+        2318,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2314,
+        -51,
+        9,
+        2318,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2306,
+        -51,
+        1,
+        2326,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_02/setup",
+      "place_command_blocks_function": "truck:truck_medium_02/place_command_blocks",
+      "tick_function": "truck:truck_medium_02/tick",
+      "clear_function": "truck:truck_medium_02/clear",
+      "parking_region": [
+        2315,
+        -58,
+        11,
+        2317,
+        -58,
+        13
+      ],
+      "target_region": [
+        2315,
+        -57,
+        11,
+        2317,
+        -57,
+        13
+      ],
+      "target_center": [
+        2316.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:orange_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2325,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2307,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2325,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2325,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2307,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2325,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2307,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2325,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2307,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2307,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2307,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2325,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2307,
+            -57,
+            17
+          ]
+        }
+      ],
+      "decoration_count": 13,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 24.0
+    },
+    {
+      "scene_id": "truck_medium_03",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2336,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2337,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2345,
+        -51,
+        9,
+        2349,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2345,
+        -51,
+        9,
+        2349,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2337,
+        -51,
+        1,
+        2358,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_03/setup",
+      "place_command_blocks_function": "truck:truck_medium_03/place_command_blocks",
+      "tick_function": "truck:truck_medium_03/tick",
+      "clear_function": "truck:truck_medium_03/clear",
+      "parking_region": [
+        2347,
+        -58,
+        10,
+        2349,
+        -58,
+        12
+      ],
+      "target_region": [
+        2347,
+        -57,
+        10,
+        2349,
+        -57,
+        12
+      ],
+      "target_center": [
+        2348.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:yellow_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2357,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2338,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2357,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2338,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2338,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2338,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2338,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2338,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2338,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2357,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2357,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2357,
+            -57,
+            6
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 48.0
+    },
+    {
+      "scene_id": "truck_medium_04",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2368,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2369,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2377,
+        -51,
+        9,
+        2381,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2377,
+        -51,
+        9,
+        2381,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2369,
+        -51,
+        1,
+        2389,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_04/setup",
+      "place_command_blocks_function": "truck:truck_medium_04/place_command_blocks",
+      "tick_function": "truck:truck_medium_04/tick",
+      "clear_function": "truck:truck_medium_04/clear",
+      "parking_region": [
+        2378,
+        -58,
+        11,
+        2380,
+        -58,
+        13
+      ],
+      "target_region": [
+        2378,
+        -57,
+        11,
+        2380,
+        -57,
+        13
+      ],
+      "target_center": [
+        2379.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:lime_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2388,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2370,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2388,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2388,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2388,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2370,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2388,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2370,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2388,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2370,
+            -57,
+            11
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 72.0
+    },
+    {
+      "scene_id": "truck_medium_05",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2399,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2400,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2408,
+        -51,
+        9,
+        2412,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2408,
+        -51,
+        9,
+        2412,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2400,
+        -51,
+        1,
+        2421,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_05/setup",
+      "place_command_blocks_function": "truck:truck_medium_05/place_command_blocks",
+      "tick_function": "truck:truck_medium_05/tick",
+      "clear_function": "truck:truck_medium_05/clear",
+      "parking_region": [
+        2410,
+        -58,
+        10,
+        2412,
+        -58,
+        12
+      ],
+      "target_region": [
+        2410,
+        -57,
+        10,
+        2412,
+        -57,
+        12
+      ],
+      "target_center": [
+        2411.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:green_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2420,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2401,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2420,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2401,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2401,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2401,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2401,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2401,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2420,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2401,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2401,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2401,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2420,
+            -57,
+            20
+          ]
+        }
+      ],
+      "decoration_count": 13,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 96.0
+    },
+    {
+      "scene_id": "truck_medium_06",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2431,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2432,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2440,
+        -51,
+        9,
+        2444,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2440,
+        -51,
+        9,
+        2444,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2432,
+        -51,
+        1,
+        2452,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_06/setup",
+      "place_command_blocks_function": "truck:truck_medium_06/place_command_blocks",
+      "tick_function": "truck:truck_medium_06/tick",
+      "clear_function": "truck:truck_medium_06/clear",
+      "parking_region": [
+        2441,
+        -58,
+        11,
+        2443,
+        -58,
+        13
+      ],
+      "target_region": [
+        2441,
+        -57,
+        11,
+        2443,
+        -57,
+        13
+      ],
+      "target_center": [
+        2442.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:cyan_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2433,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2433,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2433,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2451,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2433,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2433,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2433,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2451,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2451,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2433,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2451,
+            -57,
+            16
+          ]
+        }
+      ],
+      "decoration_count": 11,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 120.0
+    },
+    {
+      "scene_id": "truck_medium_07",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2462,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2463,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2471,
+        -51,
+        9,
+        2475,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2471,
+        -51,
+        9,
+        2475,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2463,
+        -51,
+        1,
+        2484,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_07/setup",
+      "place_command_blocks_function": "truck:truck_medium_07/place_command_blocks",
+      "tick_function": "truck:truck_medium_07/tick",
+      "clear_function": "truck:truck_medium_07/clear",
+      "parking_region": [
+        2473,
+        -58,
+        10,
+        2475,
+        -58,
+        12
+      ],
+      "target_region": [
+        2473,
+        -57,
+        10,
+        2475,
+        -57,
+        12
+      ],
+      "target_center": [
+        2474.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:light_blue_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2464,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2483,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2464,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2464,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2483,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2464,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2483,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2483,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2483,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2464,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2464,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2464,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2483,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2464,
+            -57,
+            4
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 144.0
+    },
+    {
+      "scene_id": "truck_medium_08",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2494,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2495,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2503,
+        -51,
+        9,
+        2507,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2503,
+        -51,
+        9,
+        2507,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2495,
+        -51,
+        1,
+        2515,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_08/setup",
+      "place_command_blocks_function": "truck:truck_medium_08/place_command_blocks",
+      "tick_function": "truck:truck_medium_08/tick",
+      "clear_function": "truck:truck_medium_08/clear",
+      "parking_region": [
+        2504,
+        -58,
+        11,
+        2506,
+        -58,
+        13
+      ],
+      "target_region": [
+        2504,
+        -57,
+        11,
+        2506,
+        -57,
+        13
+      ],
+      "target_center": [
+        2505.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:blue_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2496,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2514,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2496,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2514,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2514,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2514,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2514,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2496,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2496,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2514,
+            -57,
+            19
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 168.0
+    },
+    {
+      "scene_id": "truck_medium_09",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2525,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2526,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2534,
+        -51,
+        9,
+        2538,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2534,
+        -51,
+        9,
+        2538,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2526,
+        -51,
+        1,
+        2547,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_09/setup",
+      "place_command_blocks_function": "truck:truck_medium_09/place_command_blocks",
+      "tick_function": "truck:truck_medium_09/tick",
+      "clear_function": "truck:truck_medium_09/clear",
+      "parking_region": [
+        2536,
+        -58,
+        10,
+        2538,
+        -58,
+        12
+      ],
+      "target_region": [
+        2536,
+        -57,
+        10,
+        2538,
+        -57,
+        12
+      ],
+      "target_center": [
+        2537.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:purple_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2546,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2546,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2546,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2546,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2546,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2546,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2527,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2546,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2546,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2546,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2546,
+            -57,
+            19
+          ]
+        }
+      ],
+      "decoration_count": 11,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 192.0
+    },
+    {
+      "scene_id": "truck_medium_10",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2557,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2558,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2566,
+        -51,
+        9,
+        2570,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2566,
+        -51,
+        9,
+        2570,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2558,
+        -51,
+        1,
+        2578,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_10/setup",
+      "place_command_blocks_function": "truck:truck_medium_10/place_command_blocks",
+      "tick_function": "truck:truck_medium_10/tick",
+      "clear_function": "truck:truck_medium_10/clear",
+      "parking_region": [
+        2567,
+        -58,
+        11,
+        2569,
+        -58,
+        13
+      ],
+      "target_region": [
+        2567,
+        -57,
+        11,
+        2569,
+        -57,
+        13
+      ],
+      "target_center": [
+        2568.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:magenta_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2559,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2559,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2559,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2577,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2559,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2559,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2577,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2577,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2577,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2559,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2577,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2559,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2577,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2559,
+            -57,
+            17
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 216.0
+    },
+    {
+      "scene_id": "truck_medium_11",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2588,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2589,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2597,
+        -51,
+        9,
+        2601,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2597,
+        -51,
+        9,
+        2601,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2589,
+        -51,
+        1,
+        2610,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_11/setup",
+      "place_command_blocks_function": "truck:truck_medium_11/place_command_blocks",
+      "tick_function": "truck:truck_medium_11/tick",
+      "clear_function": "truck:truck_medium_11/clear",
+      "parking_region": [
+        2599,
+        -58,
+        10,
+        2601,
+        -58,
+        12
+      ],
+      "target_region": [
+        2599,
+        -57,
+        10,
+        2601,
+        -57,
+        12
+      ],
+      "target_center": [
+        2600.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:red_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2609,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2609,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2609,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2609,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2609,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2590,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2590,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2609,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2609,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2590,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2590,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2590,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2609,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2590,
+            -57,
+            12
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 240.0
+    },
+    {
+      "scene_id": "truck_medium_12",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2620,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2621,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2629,
+        -51,
+        9,
+        2633,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2629,
+        -51,
+        9,
+        2633,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2621,
+        -51,
+        1,
+        2641,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_12/setup",
+      "place_command_blocks_function": "truck:truck_medium_12/place_command_blocks",
+      "tick_function": "truck:truck_medium_12/tick",
+      "clear_function": "truck:truck_medium_12/clear",
+      "parking_region": [
+        2630,
+        -58,
+        11,
+        2632,
+        -58,
+        13
+      ],
+      "target_region": [
+        2630,
+        -57,
+        11,
+        2632,
+        -57,
+        13
+      ],
+      "target_center": [
+        2631.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:orange_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2622,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2640,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2622,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2622,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2622,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2622,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2622,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2640,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2622,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2622,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2640,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2622,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2640,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2622,
+            -57,
+            13
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 264.0
+    },
+    {
+      "scene_id": "truck_medium_13",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2651,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2652,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2660,
+        -51,
+        9,
+        2664,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2660,
+        -51,
+        9,
+        2664,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2652,
+        -51,
+        1,
+        2673,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_13/setup",
+      "place_command_blocks_function": "truck:truck_medium_13/place_command_blocks",
+      "tick_function": "truck:truck_medium_13/tick",
+      "clear_function": "truck:truck_medium_13/clear",
+      "parking_region": [
+        2662,
+        -58,
+        10,
+        2664,
+        -58,
+        12
+      ],
+      "target_region": [
+        2662,
+        -57,
+        10,
+        2664,
+        -57,
+        12
+      ],
+      "target_center": [
+        2663.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:yellow_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2672,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2672,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2653,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2672,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2672,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2653,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2653,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2672,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2653,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2672,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2672,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2672,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2653,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2653,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2653,
+            -57,
+            14
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 288.0
+    },
+    {
+      "scene_id": "truck_medium_14",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2683,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2684,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2692,
+        -51,
+        9,
+        2696,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2692,
+        -51,
+        9,
+        2696,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2684,
+        -51,
+        1,
+        2704,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_14/setup",
+      "place_command_blocks_function": "truck:truck_medium_14/place_command_blocks",
+      "tick_function": "truck:truck_medium_14/tick",
+      "clear_function": "truck:truck_medium_14/clear",
+      "parking_region": [
+        2693,
+        -58,
+        11,
+        2695,
+        -58,
+        13
+      ],
+      "target_region": [
+        2693,
+        -57,
+        11,
+        2695,
+        -57,
+        13
+      ],
+      "target_center": [
+        2694.0,
+        -57.0,
+        12.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:lime_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2685,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2703,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2703,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2685,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2685,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2685,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2685,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2685,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2703,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2703,
+            -57,
+            3
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 312.0
+    },
+    {
+      "scene_id": "truck_medium_15",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2714,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2715,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2723,
+        -51,
+        9,
+        2727,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2723,
+        -51,
+        9,
+        2727,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2715,
+        -51,
+        1,
+        2736,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_medium_15/setup",
+      "place_command_blocks_function": "truck:truck_medium_15/place_command_blocks",
+      "tick_function": "truck:truck_medium_15/tick",
+      "clear_function": "truck:truck_medium_15/clear",
+      "parking_region": [
+        2725,
+        -58,
+        10,
+        2727,
+        -58,
+        12
+      ],
+      "target_region": [
+        2725,
+        -57,
+        10,
+        2727,
+        -57,
+        12
+      ],
+      "target_center": [
+        2726.0,
+        -57.0,
+        11.0
+      ],
+      "target_size": 3,
+      "parking_block": "minecraft:green_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2716,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2735,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2735,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2716,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2716,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2735,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2716,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2716,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2716,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2735,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2716,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2716,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2716,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2735,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2735,
+            -57,
+            9
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "medium",
+      "difficulty_zh": "中等",
+      "difficulty_constraints": {
+        "zh": "中等",
+        "count": 100,
+        "target_size": 3,
+        "a_distance": [
+          4.5,
+          6.5
+        ],
+        "a_yaw_max": 15.0,
+        "collinear_count": 67,
+        "triangle_count": 33
+      },
+      "spawn_angle_degrees": 336.0
+    },
+    {
+      "scene_id": "truck_hard_01",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2746,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2747,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2755,
+        -51,
+        9,
+        2759,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2755,
+        -51,
+        9,
+        2759,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2747,
+        -51,
+        1,
+        2768,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_01/setup",
+      "place_command_blocks_function": "truck:truck_hard_01/place_command_blocks",
+      "tick_function": "truck:truck_hard_01/tick",
+      "clear_function": "truck:truck_hard_01/clear",
+      "parking_region": [
+        2758,
+        -58,
+        11,
+        2759,
+        -58,
+        12
+      ],
+      "target_region": [
+        2758,
+        -57,
+        11,
+        2759,
+        -57,
+        12
+      ],
+      "target_center": [
+        2758.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:red_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2767,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2767,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2748,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2748,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2767,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2767,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2748,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2748,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2748,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2767,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2748,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2767,
+            -57,
+            12
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 0.0
+    },
+    {
+      "scene_id": "truck_hard_02",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2778,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2779,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2787,
+        -51,
+        9,
+        2791,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2787,
+        -51,
+        9,
+        2791,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2779,
+        -51,
+        1,
+        2799,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_02/setup",
+      "place_command_blocks_function": "truck:truck_hard_02/place_command_blocks",
+      "tick_function": "truck:truck_hard_02/tick",
+      "clear_function": "truck:truck_hard_02/clear",
+      "parking_region": [
+        2789,
+        -58,
+        12,
+        2790,
+        -58,
+        13
+      ],
+      "target_region": [
+        2789,
+        -57,
+        12,
+        2790,
+        -57,
+        13
+      ],
+      "target_center": [
+        2789.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:orange_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2780,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2798,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2798,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2798,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2780,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2798,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2780,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2798,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2780,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2798,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2798,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2780,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2780,
+            -57,
+            10
+          ]
+        }
+      ],
+      "decoration_count": 13,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 24.0
+    },
+    {
+      "scene_id": "truck_hard_03",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2809,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2810,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2818,
+        -51,
+        9,
+        2822,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2818,
+        -51,
+        9,
+        2822,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2810,
+        -51,
+        1,
+        2831,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_03/setup",
+      "place_command_blocks_function": "truck:truck_hard_03/place_command_blocks",
+      "tick_function": "truck:truck_hard_03/tick",
+      "clear_function": "truck:truck_hard_03/clear",
+      "parking_region": [
+        2821,
+        -58,
+        11,
+        2822,
+        -58,
+        12
+      ],
+      "target_region": [
+        2821,
+        -57,
+        11,
+        2822,
+        -57,
+        12
+      ],
+      "target_center": [
+        2821.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:yellow_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2830,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2811,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2811,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2811,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2830,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2830,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2830,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2830,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2830,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2811,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2811,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2811,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2811,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2830,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2811,
+            -57,
+            11
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 48.0
+    },
+    {
+      "scene_id": "truck_hard_04",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2841,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2842,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2850,
+        -51,
+        9,
+        2854,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2850,
+        -51,
+        9,
+        2854,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2842,
+        -51,
+        1,
+        2862,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_04/setup",
+      "place_command_blocks_function": "truck:truck_hard_04/place_command_blocks",
+      "tick_function": "truck:truck_hard_04/tick",
+      "clear_function": "truck:truck_hard_04/clear",
+      "parking_region": [
+        2852,
+        -58,
+        12,
+        2853,
+        -58,
+        13
+      ],
+      "target_region": [
+        2852,
+        -57,
+        12,
+        2853,
+        -57,
+        13
+      ],
+      "target_center": [
+        2852.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:lime_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2843,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2843,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2861,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2861,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2861,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2861,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2843,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2843,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2843,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2843,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2843,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2843,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2843,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2861,
+            -57,
+            13
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 72.0
+    },
+    {
+      "scene_id": "truck_hard_05",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2872,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2873,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2881,
+        -51,
+        9,
+        2885,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2881,
+        -51,
+        9,
+        2885,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2873,
+        -51,
+        1,
+        2894,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_05/setup",
+      "place_command_blocks_function": "truck:truck_hard_05/place_command_blocks",
+      "tick_function": "truck:truck_hard_05/tick",
+      "clear_function": "truck:truck_hard_05/clear",
+      "parking_region": [
+        2884,
+        -58,
+        11,
+        2885,
+        -58,
+        12
+      ],
+      "target_region": [
+        2884,
+        -57,
+        11,
+        2885,
+        -57,
+        12
+      ],
+      "target_center": [
+        2884.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:green_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2874,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2874,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2893,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2893,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2874,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2874,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2874,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2874,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2874,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2893,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2893,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2874,
+            -57,
+            8
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 96.0
+    },
+    {
+      "scene_id": "truck_hard_06",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2904,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2905,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2913,
+        -51,
+        9,
+        2917,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2913,
+        -51,
+        9,
+        2917,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2905,
+        -51,
+        1,
+        2925,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_06/setup",
+      "place_command_blocks_function": "truck:truck_hard_06/place_command_blocks",
+      "tick_function": "truck:truck_hard_06/tick",
+      "clear_function": "truck:truck_hard_06/clear",
+      "parking_region": [
+        2915,
+        -58,
+        12,
+        2916,
+        -58,
+        13
+      ],
+      "target_region": [
+        2915,
+        -57,
+        12,
+        2916,
+        -57,
+        13
+      ],
+      "target_center": [
+        2915.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:cyan_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2906,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2906,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2924,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2924,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2906,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2906,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2906,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2924,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2924,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2924,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2924,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2906,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2906,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2924,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2924,
+            -57,
+            15
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 120.0
+    },
+    {
+      "scene_id": "truck_hard_07",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2935,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2936,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2944,
+        -51,
+        9,
+        2948,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2944,
+        -51,
+        9,
+        2948,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2936,
+        -51,
+        1,
+        2957,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_07/setup",
+      "place_command_blocks_function": "truck:truck_hard_07/place_command_blocks",
+      "tick_function": "truck:truck_hard_07/tick",
+      "clear_function": "truck:truck_hard_07/clear",
+      "parking_region": [
+        2947,
+        -58,
+        11,
+        2948,
+        -58,
+        12
+      ],
+      "target_region": [
+        2947,
+        -57,
+        11,
+        2948,
+        -57,
+        12
+      ],
+      "target_center": [
+        2947.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:light_blue_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2956,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2937,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2956,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2956,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2956,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2956,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2937,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            2937,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2956,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2956,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2937,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2937,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2956,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2956,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2937,
+            -57,
+            6
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 144.0
+    },
+    {
+      "scene_id": "truck_hard_08",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2967,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2968,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        2976,
+        -51,
+        9,
+        2980,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        2976,
+        -51,
+        9,
+        2980,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2968,
+        -51,
+        1,
+        2988,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_08/setup",
+      "place_command_blocks_function": "truck:truck_hard_08/place_command_blocks",
+      "tick_function": "truck:truck_hard_08/tick",
+      "clear_function": "truck:truck_hard_08/clear",
+      "parking_region": [
+        2978,
+        -58,
+        12,
+        2979,
+        -58,
+        13
+      ],
+      "target_region": [
+        2978,
+        -57,
+        12,
+        2979,
+        -57,
+        13
+      ],
+      "target_center": [
+        2978.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:blue_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2969,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            2969,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2987,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2987,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2969,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            2987,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2969,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            2969,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            2969,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            2987,
+            -57,
+            5
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 168.0
+    },
+    {
+      "scene_id": "truck_hard_09",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        2998,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        2999,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3007,
+        -51,
+        9,
+        3011,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3007,
+        -51,
+        9,
+        3011,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        2999,
+        -51,
+        1,
+        3020,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_09/setup",
+      "place_command_blocks_function": "truck:truck_hard_09/place_command_blocks",
+      "tick_function": "truck:truck_hard_09/tick",
+      "clear_function": "truck:truck_hard_09/clear",
+      "parking_region": [
+        3010,
+        -58,
+        11,
+        3011,
+        -58,
+        12
+      ],
+      "target_region": [
+        3010,
+        -57,
+        11,
+        3011,
+        -57,
+        12
+      ],
+      "target_center": [
+        3010.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:purple_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3019,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3000,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3019,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3000,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3000,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3000,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3000,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3019,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3019,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3019,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3000,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3019,
+            -57,
+            4
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 192.0
+    },
+    {
+      "scene_id": "truck_hard_10",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        3030,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        3031,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3039,
+        -51,
+        9,
+        3043,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3039,
+        -51,
+        9,
+        3043,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        3031,
+        -51,
+        1,
+        3051,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_10/setup",
+      "place_command_blocks_function": "truck:truck_hard_10/place_command_blocks",
+      "tick_function": "truck:truck_hard_10/tick",
+      "clear_function": "truck:truck_hard_10/clear",
+      "parking_region": [
+        3041,
+        -58,
+        12,
+        3042,
+        -58,
+        13
+      ],
+      "target_region": [
+        3041,
+        -57,
+        12,
+        3042,
+        -57,
+        13
+      ],
+      "target_center": [
+        3041.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:magenta_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3032,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3050,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3032,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3050,
+            -57,
+            21
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3050,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3050,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3032,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3032,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3032,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3050,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3032,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3050,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3050,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3050,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3032,
+            -57,
+            5
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 216.0
+    },
+    {
+      "scene_id": "truck_hard_11",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        3061,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        3062,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3070,
+        -51,
+        9,
+        3074,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3070,
+        -51,
+        9,
+        3074,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        3062,
+        -51,
+        1,
+        3083,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_11/setup",
+      "place_command_blocks_function": "truck:truck_hard_11/place_command_blocks",
+      "tick_function": "truck:truck_hard_11/tick",
+      "clear_function": "truck:truck_hard_11/clear",
+      "parking_region": [
+        3073,
+        -58,
+        11,
+        3074,
+        -58,
+        12
+      ],
+      "target_region": [
+        3073,
+        -57,
+        11,
+        3074,
+        -57,
+        12
+      ],
+      "target_center": [
+        3073.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:red_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3082,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3063,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3063,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3082,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3063,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3063,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3082,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3063,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3063,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3082,
+            -57,
+            10
+          ]
+        }
+      ],
+      "decoration_count": 10,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 240.0
+    },
+    {
+      "scene_id": "truck_hard_12",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        3093,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        3094,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3102,
+        -51,
+        9,
+        3106,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3102,
+        -51,
+        9,
+        3106,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        3094,
+        -51,
+        1,
+        3114,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_12/setup",
+      "place_command_blocks_function": "truck:truck_hard_12/place_command_blocks",
+      "tick_function": "truck:truck_hard_12/tick",
+      "clear_function": "truck:truck_hard_12/clear",
+      "parking_region": [
+        3104,
+        -58,
+        12,
+        3105,
+        -58,
+        13
+      ],
+      "target_region": [
+        3104,
+        -57,
+        12,
+        3105,
+        -57,
+        13
+      ],
+      "target_center": [
+        3104.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:orange_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3095,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3113,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3113,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3113,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3113,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3095,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3095,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3095,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3095,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3113,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3113,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3113,
+            -57,
+            20
+          ]
+        }
+      ],
+      "decoration_count": 12,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 264.0
+    },
+    {
+      "scene_id": "truck_hard_13",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        3124,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        3125,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3133,
+        -51,
+        9,
+        3137,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3133,
+        -51,
+        9,
+        3137,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        3125,
+        -51,
+        1,
+        3146,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_13/setup",
+      "place_command_blocks_function": "truck:truck_hard_13/place_command_blocks",
+      "tick_function": "truck:truck_hard_13/tick",
+      "clear_function": "truck:truck_hard_13/clear",
+      "parking_region": [
+        3136,
+        -58,
+        11,
+        3137,
+        -58,
+        12
+      ],
+      "target_region": [
+        3136,
+        -57,
+        11,
+        3137,
+        -57,
+        12
+      ],
+      "target_center": [
+        3136.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:yellow_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3126,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3145,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3145,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3145,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3145,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3145,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3145,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3126,
+            -57,
+            15
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3126,
+            -57,
+            6
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3145,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3126,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3145,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3145,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3145,
+            -57,
+            18
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 288.0
+    },
+    {
+      "scene_id": "truck_hard_14",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        3156,
+        -58,
+        0
+      ],
+      "room_size": [
+        23,
+        8,
+        24
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        3157,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3165,
+        -51,
+        9,
+        3169,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3165,
+        -51,
+        9,
+        3169,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        3157,
+        -51,
+        1,
+        3177,
+        -51,
+        22
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_14/setup",
+      "place_command_blocks_function": "truck:truck_hard_14/place_command_blocks",
+      "tick_function": "truck:truck_hard_14/tick",
+      "clear_function": "truck:truck_hard_14/clear",
+      "parking_region": [
+        3167,
+        -58,
+        12,
+        3168,
+        -58,
+        13
+      ],
+      "target_region": [
+        3167,
+        -57,
+        12,
+        3168,
+        -57,
+        13
+      ],
+      "target_center": [
+        3167.5,
+        -57.0,
+        12.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:lime_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3158,
+            -57,
+            12
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3176,
+            -57,
+            5
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3176,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3158,
+            -57,
+            10
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3158,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3176,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3176,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3158,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3158,
+            -57,
+            11
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3158,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3176,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3176,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3176,
+            -57,
+            7
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3158,
+            -57,
+            17
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3158,
+            -57,
+            5
+          ]
+        }
+      ],
+      "decoration_count": 15,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 312.0
+    },
+    {
+      "scene_id": "truck_hard_15",
+      "variant_of": null,
+      "variant_index": null,
+      "variant_label": "",
+      "variant_key": "",
+      "variant_options": null,
+      "namespace": "truck",
+      "task_template": "truck_driver",
+      "origin": [
+        3187,
+        -58,
+        0
+      ],
+      "room_size": [
+        24,
+        8,
+        23
+      ],
+      "wall_backing_thickness": 1,
+      "wall_backing_block": "minecraft:white_concrete",
+      "command_block_base": [
+        3188,
+        -52,
+        1
+      ],
+      "ceiling_light_region": [
+        3196,
+        -51,
+        9,
+        3200,
+        -51,
+        13
+      ],
+      "ceiling_light_block": "minecraft:glowstone",
+      "ceiling_light_mode": "inner_ring_spotlight",
+      "ceiling_inner_light_region": [
+        3196,
+        -51,
+        9,
+        3200,
+        -51,
+        13
+      ],
+      "ceiling_spotlight_ring_region": [
+        3188,
+        -51,
+        1,
+        3209,
+        -51,
+        21
+      ],
+      "ceiling_spotlight_block": "minecraft:glowstone",
+      "ceiling_spotlight_width": 3,
+      "setup_function": "truck:truck_hard_15/setup",
+      "place_command_blocks_function": "truck:truck_hard_15/place_command_blocks",
+      "tick_function": "truck:truck_hard_15/tick",
+      "clear_function": "truck:truck_hard_15/clear",
+      "parking_region": [
+        3199,
+        -58,
+        11,
+        3200,
+        -58,
+        12
+      ],
+      "target_region": [
+        3199,
+        -57,
+        11,
+        3200,
+        -57,
+        12
+      ],
+      "target_center": [
+        3199.5,
+        -57.0,
+        11.5
+      ],
+      "target_size": 2,
+      "parking_block": "minecraft:green_concrete",
+      "decorations": [
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3189,
+            -57,
+            19
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3189,
+            -57,
+            20
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3208,
+            -57,
+            3
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3208,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3189,
+            -57,
+            16
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3208,
+            -57,
+            8
+          ]
+        },
+        {
+          "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "position": [
+            3189,
+            -57,
+            9
+          ]
+        },
+        {
+          "block": "minecraft:stone_slab[type=bottom]",
+          "position": [
+            3208,
+            -57,
+            13
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3208,
+            -57,
+            2
+          ]
+        },
+        {
+          "block": "minecraft:bookshelf",
+          "position": [
+            3189,
+            -57,
+            18
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3189,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:furnace",
+          "position": [
+            3208,
+            -57,
+            4
+          ]
+        },
+        {
+          "block": "minecraft:crafting_table",
+          "position": [
+            3189,
+            -57,
+            14
+          ]
+        },
+        {
+          "block": "minecraft:chest",
+          "position": [
+            3208,
+            -57,
+            7
+          ]
+        }
+      ],
+      "decoration_count": 14,
+      "agent_a_visibility_constraint": "parking_region_location_and_color_hidden",
+      "difficulty": "hard",
+      "difficulty_zh": "困难",
+      "difficulty_constraints": {
+        "zh": "困难",
+        "count": 100,
+        "target_size": 2,
+        "a_distance": [
+          5.5,
+          7.5
+        ],
+        "a_yaw_max": 30.0,
+        "collinear_count": 50,
+        "triangle_count": 50
+      },
+      "spawn_angle_degrees": 336.0
+    }
+  ]
+}

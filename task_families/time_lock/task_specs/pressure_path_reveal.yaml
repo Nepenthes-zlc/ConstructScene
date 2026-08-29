@@ -1,0 +1,125 @@
+schema_version: 1
+task_template: pressure_path_reveal
+category: time_lock
+name: pressure_plate_reveals_path
+description: Player A steps on a pressure plate on one thick end of the house, revealing a temporary path through the hollow middle so Player B can cross to the opposite thick end.
+
+common_room:
+  shape: rectangular_prism
+  construction_rule: same_house_structure_as_other_tasks
+  shell_thickness: 2
+  origin: [0, -59, 0]
+  room_size: [15, 7, 19]
+  floor_block: minecraft:white_concrete
+  wall_block: minecraft:white_concrete
+  ceiling_block: minecraft:white_concrete
+  ceiling_light:
+    mode: rectangular_frame
+    block: minecraft:glowstone
+    inset: 1
+
+scene_layout:
+  floor_profile:
+    requirement: floor_uses_four_layer_foundation_except_middle_river_channel
+    total_foundation_thickness: 4
+    solid_end_a:
+      position: front_end
+      thickness: 4
+      length: 5
+      block: minecraft:white_concrete
+      role: pressure_plate_end
+    hollow_middle:
+      position: room_center
+      visible_floor_thickness: 1
+      void_below_depth: 2
+      gap_length: 7
+      void_block: minecraft:air
+      role: missing_path_span
+      rule: middle_has_only_one_floor_layer_until_path_is_revealed
+    solid_end_b:
+      position: back_end
+      thickness: 4
+      length: 5
+      block: minecraft:white_concrete
+      role: goal_end
+  pressure_plate:
+    side: solid_end_a
+    offset_from_gap: 2
+    region_size: [3, 1, 3]
+    block: minecraft:stone_pressure_plate
+    active_state: powered=true
+    placement_rule: plate_must_be_on_one_thick_end_before_the_hollow_middle
+  reveal_path:
+    position: hollow_middle_centerline
+    width: 2
+    length: hollow_middle.gap_length
+    inactive_block: minecraft:air
+    active_block: minecraft:lime_concrete
+    y_level: walkable_floor_level
+    reveal_rule: path_exists_only_while_pressure_plate_is_pressed
+    endpoint_rule: path_connects_solid_end_a_to_solid_end_b
+  goal_region:
+    side: solid_end_b
+    size: [3, 1, 3]
+    marker_block: minecraft:gold_block
+
+spatial_requirements:
+  - The house uses the shared rectangular room construction.
+  - The floor/foundation starts as a complete four-block-high rectangular prism.
+  - Both ends of the house retain four-layer-thick solid ground after the middle river channel is carved.
+  - The middle span is hollow below the walking surface.
+  - Before activation, the middle span has only a one-layer floor surface and no crossable path.
+  - A pressure plate is placed on exactly one thick end of the house.
+  - When the plate is pressed, a visible path appears through the middle hollow span.
+  - The revealed path connects the pressure-plate end to the opposite end.
+
+players:
+  player_a:
+    role: path_holder
+    spawn_side: solid_end_a
+    goal:
+      type: hold_region
+      target: pressure_plate.region
+      description: Stand on any pressure plate cell and keep the temporary path visible.
+  player_b:
+    role: path_crosser
+    spawn_side: solid_end_a
+    goal:
+      type: reach_region
+      target: goal_region
+      description: Cross the revealed path and reach the opposite solid end.
+
+mechanics:
+  tick_logic:
+    when: any_pressure_plate_powered
+    do: fill reveal_path.region reveal_path.active_block
+    otherwise: fill reveal_path.region reveal_path.inactive_block
+  command_blocks: required
+  temporal_lock: revealed_path_only_exists_while_plate_is_pressed
+  safety_rule: The two room ends remain four blocks thick; only the middle span is hollowed into a river channel.
+
+success_conditions:
+  - type: block_state_any
+    target: pressure_plate.region
+    expected_block_state: pressure_plate_powered
+    actor: player_a
+  - type: player_in_region
+    player: player_b
+    target: goal_region
+
+generation_notes:
+  implemented_by_existing_generator: true
+  existing_template: pressure_path_reveal
+  scene_builder: build_pressure_path_reveal_scene
+  required_new_task_builder: build_pressure_path_reveal_task
+  acceptance_checks:
+    - floor_profile.total_foundation_thickness == 4
+    - floor_profile.solid_end_a.thickness == 4
+    - floor_profile.solid_end_b.thickness == 4
+    - floor_profile.hollow_middle.visible_floor_thickness == 1
+    - pressure_plate.side == solid_end_a
+    - reveal_path.position == hollow_middle_centerline
+    - reveal_path.inactive_block == minecraft:air
+  required_generator_changes:
+    - Add task JSON generation support for pressure_path_reveal.
+    - Add manifest fields for pressure_plate_region, reveal_path_region, hollow_middle_region, solid_end_regions, and goal_region.

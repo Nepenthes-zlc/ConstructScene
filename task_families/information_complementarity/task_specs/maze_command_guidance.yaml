@@ -1,0 +1,120 @@
+schema_version: 1
+task_template: maze_command_guidance
+category: information_complementarity
+name: elevated_observer_guides_maze_runner
+description: Agent A has only a local view inside a three-block-high maze, while Agent B observes the complete maze from above and communicates the route to the exit.
+
+common_room:
+  shape: rectangular_prism
+  construction_rule: same_two_layer_house_structure_as_other_tasks
+  room_size: [23, 20, 23]
+  house_height: 20
+  shell_thickness: 2
+  floor_block: minecraft:light_gray_concrete
+  wall_block: minecraft:white_concrete
+  ceiling_block: minecraft:white_concrete
+  ceiling_light:
+    mode: rectangular_frame_and_center_panel
+    block: minecraft:glowstone
+  wall_light_ring:
+    floor_relative_y: 7
+    block: minecraft:glowstone
+    coverage: all_four_walls_closed_ring
+
+scene_layout:
+  maze:
+    position: room_center
+    footprint: [15, 15]
+    wall_height: 3
+    path_width: 2
+    wall_block: minecraft:gray_concrete
+    wall_layers:
+      bottom: minecraft:gray_concrete
+      middle: minecraft:glowstone
+      top: minecraft:gray_concrete
+    generation: randomized_perfect_maze
+    entrance: two_blocks_wide_on_west_side
+    exit: two_blocks_wide_on_east_side
+  observer_position:
+    position: south_maze_wall_top
+    support: existing_maze_wall
+    additional_platform: none
+    visibility: complete_maze_visible
+  goal_marker:
+    block: minecraft:emerald_block
+    position: maze_exit_floor
+
+spatial_requirements:
+  - The complete house is exactly twenty blocks high and uses two-layer exterior walls.
+  - A closed glowstone ring runs around all four room walls exactly seven blocks above the floor.
+  - The maze is fully contained inside the room and has a fifteen-by-fifteen footprint.
+  - Every maze wall is exactly three blocks high above the main floor.
+  - Every navigable maze corridor, connector, entrance, and exit is exactly two blocks wide.
+  - The second layer of every remaining maze wall is glowstone, while the bottom and top wall layers use the normal maze wall block.
+  - The maze has one connected entrance, one connected exit, and a valid route between them.
+  - Agent A starts safely just inside the maze entrance.
+  - No separate observation platform or railing structure is generated.
+  - Agent B starts on top of the existing south maze wall with a complete view of the maze.
+
+information_distribution:
+  agent_a_private_information:
+    - Agent A can move through the maze but can only see nearby corridors because the maze walls are three blocks high.
+    - Agent A knows the goal is the emerald-marked exit but does not know the complete route.
+  agent_b_private_information:
+    - Agent B can see the complete maze layout from the top of the south maze wall.
+    - Agent B cannot move Agent A directly and must communicate route instructions.
+  shared_information:
+    - Both agents know Agent A must reach the maze exit.
+    - Both agents may communicate throughout the task.
+  complementarity_rule: Agent A can navigate but lacks the global map, while Agent B has the global map but cannot complete the route.
+
+players:
+  agent_a:
+    role: maze_runner
+    spawn_rule:
+      location: just_inside_maze_entrance
+      safe_surface: main_floor
+    goal:
+      type: reach_region
+      target: maze_exit
+      description: Follow Agent B's directions through the maze and reach the emerald exit.
+  agent_b:
+    role: maze_commander
+    spawn_rule:
+      location: south_maze_wall_top
+      support: existing_maze_wall
+    goal:
+      type: communicate_route
+      target: maze_exit
+      description: Observe the complete maze and continuously guide Agent A to the exit.
+
+communication:
+  enabled: true
+  required: true
+  expected_messages:
+    - turn_left_or_right
+    - move_forward
+    - stop
+    - corridor_progress
+    - exit_confirmation
+
+success_conditions:
+  - type: player_in_region
+    player: agent_a
+    target: maze_exit
+
+failure_conditions: []
+
+generation_notes:
+  implemented_by_existing_generator: true
+  scene_builder: build_maze_command_guidance_scene
+  required_task_builder: build_maze_command_guidance_task
+  acceptance_checks:
+    - common_room.house_height == 20
+    - common_room.shell_thickness == 2
+    - common_room.wall_light_ring.floor_relative_y == 7
+    - maze.footprint == [15, 15]
+    - maze.wall_height == 3
+    - maze.path_width == 2
+    - maze.wall_layers.middle == minecraft:glowstone
+    - communication.required == true

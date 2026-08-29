@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "truck_easy_01",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:red_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 0
+  },
+  {
+    "id": "truck_easy_02",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:orange_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 36
+  },
+  {
+    "id": "truck_easy_03",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:yellow_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 72
+  },
+  {
+    "id": "truck_easy_04",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:lime_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 108
+  },
+  {
+    "id": "truck_easy_05",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:green_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 144
+  },
+  {
+    "id": "truck_easy_06",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:cyan_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 180
+  },
+  {
+    "id": "truck_easy_07",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:light_blue_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 216
+  },
+  {
+    "id": "truck_easy_08",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:blue_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 252
+  },
+  {
+    "id": "truck_easy_09",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:purple_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 288
+  },
+  {
+    "id": "truck_easy_10",
+    "task_template": "truck_driver",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 34,
+      "target_size": 4,
+      "a_distance": [
+        3.5,
+        4.5
+      ],
+      "spawn_distance": 4.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:magenta_concrete",
+    "target_size": 4,
+    "spawn_angle_degrees": 324
+  },
+  {
+    "id": "truck_medium_01",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:red_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 0
+  },
+  {
+    "id": "truck_medium_02",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:orange_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 36
+  },
+  {
+    "id": "truck_medium_03",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:yellow_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 72
+  },
+  {
+    "id": "truck_medium_04",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:lime_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 108
+  },
+  {
+    "id": "truck_medium_05",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:green_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 144
+  },
+  {
+    "id": "truck_medium_06",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:cyan_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 180
+  },
+  {
+    "id": "truck_medium_07",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:light_blue_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 216
+  },
+  {
+    "id": "truck_medium_08",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:blue_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 252
+  },
+  {
+    "id": "truck_medium_09",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:purple_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 288
+  },
+  {
+    "id": "truck_medium_10",
+    "task_template": "truck_driver",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 33,
+      "target_size": 3,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:magenta_concrete",
+    "target_size": 3,
+    "spawn_angle_degrees": 324
+  },
+  {
+    "id": "truck_hard_01",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:red_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 0
+  },
+  {
+    "id": "truck_hard_02",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:orange_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 36
+  },
+  {
+    "id": "truck_hard_03",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:yellow_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 72
+  },
+  {
+    "id": "truck_hard_04",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:lime_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 108
+  },
+  {
+    "id": "truck_hard_05",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:green_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 144
+  },
+  {
+    "id": "truck_hard_06",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:cyan_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 180
+  },
+  {
+    "id": "truck_hard_07",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:light_blue_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 216
+  },
+  {
+    "id": "truck_hard_08",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:blue_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 252
+  },
+  {
+    "id": "truck_hard_09",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      24,
+      8,
+      23
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:purple_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 288
+  },
+  {
+    "id": "truck_hard_10",
+    "task_template": "truck_driver",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 33,
+      "target_size": 2,
+      "a_distance": [
+        5.5,
+        6.5
+      ],
+      "spawn_distance": 6.0
+    },
+    "origin": [
+      1800,
+      -58,
+      0
+    ],
+    "room_size": [
+      23,
+      8,
+      24
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "parking_block": "minecraft:magenta_concrete",
+    "target_size": 2,
+    "spawn_angle_degrees": 324
+  }
+]

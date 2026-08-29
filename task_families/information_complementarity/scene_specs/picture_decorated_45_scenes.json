@@ -1,0 +1,5171 @@
+[
+  {
+    "id": "picture_easy_01",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:red_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      4,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          10,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          2,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          13,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_02",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:orange_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      7,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          1,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          3,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          5,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          13,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          3,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_03",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:yellow_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      5,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          4,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          13,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_04",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:lime_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      6,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          3,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          1,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          4,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_05",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:green_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      4,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          1,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          3,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          15,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_06",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:cyan_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      8,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          2,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          6,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          4,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          14,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_07",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:light_blue_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      5,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          1,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          2,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          14,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          15,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          3,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          2,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          1,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_08",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:blue_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      10,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          8,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          15,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          7,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          5,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_09",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:purple_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      3,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          15,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          12,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          10,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_10",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:magenta_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      9,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          7,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          3,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          6,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_11",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:red_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      4,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          14,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          14,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          12,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          12,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          11,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          2,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          15,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_12",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:orange_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      10,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          5,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          9,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          2,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          9,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          1,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_13",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:yellow_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      4,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          10,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          11,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          15,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_14",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:lime_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      9,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          8,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          3,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          2,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_easy_15",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "easy",
+    "difficulty_zh": "简单",
+    "difficulty_constraints": {
+      "zh": "简单",
+      "count": 100,
+      "region_size": 5,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:green_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      5,
+      5
+    ],
+    "hidden_region_offset": [
+      2,
+      1
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          12,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          10,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          12,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_01",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:red_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      7,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          13,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          4,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_02",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:orange_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      10,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          6,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          1,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          15,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          6,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          3,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_03",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:yellow_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      3,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          7,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          9,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          10,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          9,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_04",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:lime_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      11,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          4,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          2,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          1,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          8,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_05",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:green_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      4,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          8,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          11,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          2,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          1,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          13,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          14,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_06",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:cyan_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      6,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          5,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          10,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          14,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          11,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          5,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          13,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_07",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:light_blue_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      4,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          15,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          5,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          11,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          8,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          9,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          11,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_08",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:blue_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      7,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          4,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          6,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          11,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          3,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_09",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:purple_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      4,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          14,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          13,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          9,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          15,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          3,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_10",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:magenta_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      12,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          3,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          7,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          2,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_11",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:red_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      6,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          4,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          15,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          12,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          3,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          11,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          2,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_12",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:orange_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      9,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          3,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          15,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          3,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          5,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_13",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:yellow_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      6,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          12,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          4,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          1,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          15,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          3,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_14",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:lime_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      7,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          13,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          12,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          6,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          14,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          15,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          14,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          6,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_medium_15",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "medium",
+    "difficulty_zh": "中等",
+    "difficulty_constraints": {
+      "zh": "中等",
+      "count": 100,
+      "region_size": 4,
+      "a_distance": [
+        3.5,
+        5.5
+      ],
+      "spawn_distance": 5.0
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:green_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      4,
+      4
+    ],
+    "hidden_region_offset": [
+      2,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          11,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          15,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          11,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          1,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_01",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:red_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      4,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          5,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          15,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          11,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          7,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          10,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          1,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_02",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:orange_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      12,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          13,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          5,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          3,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          15,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_03",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:yellow_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      2,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          13,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          11,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          7,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_04",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:lime_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      8,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          6,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          11,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          10,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          2,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          7,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          13,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_05",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:green_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      2,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          11,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          1,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          5,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          10,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_06",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:cyan_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      12,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          6,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          13,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          7,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          8,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          6,
+          5
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_07",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:light_blue_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      4,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          9,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          7,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          8,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          12,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          14,
+          4
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_08",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:blue_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      11,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          4,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          4,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          7,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          15,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          9,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_09",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:purple_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      2,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          8,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          14,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          13,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          14,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          9,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_10",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:magenta_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      8,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          6,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          8,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          5,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_11",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:red_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      6,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          12,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          4,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          14,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          3,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          4,
+          3
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_12",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:orange_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      10,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          12,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          5,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          1,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          8,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          9,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          14,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_13",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:yellow_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      5,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          13,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          2,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          4,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "relative_pos": [
+          7,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_14",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:lime_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      10,
+      1
+    ],
+    "agent_a_direction": -1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          5,
+          4
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          1,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          12,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          9,
+          1
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:bookshelf",
+        "relative_pos": [
+          6,
+          5
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:furnace",
+        "relative_pos": [
+          5,
+          2
+        ],
+        "relative_y": 7
+      }
+    ]
+  },
+  {
+    "id": "picture_hard_15",
+    "task_template": "high_platform_gold_guidance",
+    "difficulty": "hard",
+    "difficulty_zh": "困难",
+    "difficulty_constraints": {
+      "zh": "困难",
+      "count": 100,
+      "region_size": 3,
+      "a_distance": [
+        5.5,
+        7.5
+      ],
+      "spawn_distance": 6.5
+    },
+    "origin": [
+      2800,
+      -58,
+      0
+    ],
+    "room_size": [
+      17,
+      11,
+      19
+    ],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:white_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_spotlight_width": 3,
+    "ceiling_light_size": [
+      5,
+      5
+    ],
+    "platform_block": "minecraft:smooth_stone",
+    "platform_underlight_block": "minecraft:glowstone",
+    "fence_block": "minecraft:oak_fence",
+    "gold_block": "minecraft:green_concrete",
+    "platform_height": 6,
+    "platform_width": 5,
+    "target_span": 3,
+    "side_path_enabled": false,
+    "hidden_region_size": [
+      3,
+      3
+    ],
+    "hidden_region_offset": [
+      5,
+      2
+    ],
+    "agent_a_direction": 1,
+    "observer_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_platform_relative_pos": [
+      8.5,
+      7.0,
+      10.5
+    ],
+    "observer_rotation": [
+      179.0,
+      26.0
+    ],
+    "observer_support_block": "minecraft:smooth_stone",
+    "observer_platform_size": [
+      1,
+      1
+    ],
+    "decorations": [
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          3,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:chest",
+        "relative_pos": [
+          13,
+          3
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:stone_slab[type=bottom]",
+        "relative_pos": [
+          8,
+          2
+        ],
+        "relative_y": 7
+      },
+      {
+        "block": "minecraft:crafting_table",
+        "relative_pos": [
+          11,
+          1
+        ],
+        "relative_y": 7
+      }
+    ]
+  }
+]

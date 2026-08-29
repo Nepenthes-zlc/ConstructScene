@@ -1,0 +1,112 @@
+schema_version: 1
+task_template: truck_driver
+category: information_complementarity
+name: truck_driver_guided_parking
+description: Agent A has restricted visual information about a differently colored 3x3 target region, while Agent B can identify the region and guides Agent A into it through communication.
+
+common_room:
+  shape: rectangular_prism
+  origin: [0, -59, 0]
+  room_size: [15, 6, 19]
+  shell_thickness: 2
+  floor_block: minecraft:light_gray_concrete
+  wall_block: minecraft:white_concrete
+  ceiling_block: minecraft:white_concrete
+  ceiling_light:
+    mode: rectangular_frame_and_center_panel
+    block: minecraft:glowstone
+
+scene_layout:
+  parking_region:
+    position: inside_house
+    size: [3, 1, 3]
+    block: minecraft:yellow_concrete
+    placement: replace_floor_blocks
+    contrast_rule: block_must_differ_from_common_room.floor_block
+    boundary_clearance: 2
+  observation_area:
+    position: inside_house
+    visibility: parking_region_fully_visible
+    controlled_by: agent_b
+
+spatial_requirements:
+  - The scene is a complete enclosed rectangular house with floor, four walls, ceiling, and glowstone lighting.
+  - Exactly one 3x3 parking region is embedded in the house floor.
+  - Every block in the parking region has a color different from the surrounding floor.
+  - The parking region is at least two blocks away from every interior wall.
+  - Agent A and Agent B both start outside the parking region.
+  - No initial player position may overlap any cell of the parking region.
+
+information_distribution:
+  agent_a_private_information:
+    - Agent A is the moving agent and has restricted visual information about the target.
+    - Agent A knows that it must enter a special 3x3 floor region.
+    - Agent A is not given the parking region coordinates or its identifying floor color.
+  agent_b_private_information:
+    - Agent B does not move Agent A directly.
+    - Agent B is told the parking region color and can see its location.
+    - Agent B must communicate direction and stopping guidance to Agent A.
+  shared_information:
+    - Both agents know that success requires Agent A to enter the 3x3 target region.
+    - Both agents may communicate throughout the task.
+  complementarity_rule: Neither agent can complete the task alone using only its private information and permitted actions.
+
+players:
+  agent_a:
+    role: restricted_view_navigator
+    spawn_rule:
+      location: inside_house_away_from_parking_region
+      excluded_regions:
+        - parking_region
+      minimum_distance_from_parking_region: 2
+    goal:
+      type: reach_region
+      target: parking_region
+      description: Follow Agent B's guidance and enter the differently colored 3x3 target region.
+  agent_b:
+    role: parking_spotter
+    spawn_rule:
+      location: observation_area
+      excluded_regions:
+        - parking_region
+      minimum_distance_from_parking_region: 1
+    goal:
+      type: communicate_target_location
+      target: parking_region
+      description: Observe the parking region and guide Agent A until the truck is correctly parked.
+
+communication:
+  enabled: true
+  required: true
+  channel: agent_a_agent_b
+  expected_messages:
+    - movement_direction
+    - distance_to_target
+    - alignment_correction
+    - stop_signal
+
+success_conditions:
+  aggregation: all
+  conditions:
+    - type: player_in_region
+      player: agent_a
+      target: parking_region
+    - type: players_outside_region
+      players:
+        - agent_a
+        - agent_b
+      target: parking_region
+      check_time: initial_state
+
+failure_conditions: []
+
+generation_notes:
+  implemented_by_existing_generator: false
+  required_scene_builder: build_truck_driver_scene
+  required_task_builder: build_truck_driver_task
+  acceptance_checks:
+    - parking_region.size == [3, 1, 3]
+    - parking_region.block != common_room.floor_block
+    - agent_a.spawn_rule excludes parking_region
+    - agent_b.spawn_rule excludes parking_region
+    - communication.enabled == true

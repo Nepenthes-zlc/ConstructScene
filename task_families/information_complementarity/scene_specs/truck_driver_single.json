@@ -1,0 +1,19 @@
+[
+  {
+    "id": "information_truck_driver_01",
+    "task_template": "truck_driver",
+    "notes": "Information-complementarity task: Agent A has restricted target information while Agent B identifies and communicates the 3x3 target location.",
+    "origin": [560, -58, 0],
+    "room_size": [17, 7, 23],
+    "wall_backing_thickness": 1,
+    "wall_backing_block": "minecraft:white_concrete",
+    "floor_block": "minecraft:light_gray_concrete",
+    "wall_block": "minecraft:white_concrete",
+    "ceiling_block": "minecraft:white_concrete",
+    "ceiling_light_block": "minecraft:glowstone",
+    "ceiling_spotlight_block": "minecraft:glowstone",
+    "ceiling_light_mode": "inner_ring_spotlight",
+    "ceiling_light_size": [5, 5],
+    "parking_block": "minecraft:yellow_concrete"
+  }
+]
